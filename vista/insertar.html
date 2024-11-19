@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/estilos.css" rel="stylesheet">
+    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+    <title>Insertar Tareas</title>
+</head>
+<body class="color_fondo">
+
+    <div class="container">
+
+        <div class="d-flex justify-content-center">
+
+            <form method="post" action="../controlador/alta.php" class="centrar_al_medio2">
+
+                <div class="mb-4">
+        
+                    <label class="form-label">Nombre de la tarea</label>
+        
+                    <input type="text" class="form-control" name="nombreTarea">
+        
+                </div>
+        
+                <div class="mb-4">
+        
+                    <label class="form-label">Tipo de la tarea</label>
+        
+                    <input type="text" class="form-control" name="tipoTarea">
+        
+                </div>
+        
+                <div class="mb-4">
+        
+                    <label class="form-label">Contenido de la tarea</label>
+        
+                    <textarea class="form-control" rows="5" name="contenidoTarea"></textarea>
+        
+                </div>
+        
+                <button type="submit" class="btn btn-success">Introducir Tarea</button>
+        
+            </form>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
