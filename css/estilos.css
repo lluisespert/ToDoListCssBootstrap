@@ -1,0 +1,13 @@
+.centrar_al_medio{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+}
+
+.color_fondo {
+
+    background-color: #add8e6;
+
+}
